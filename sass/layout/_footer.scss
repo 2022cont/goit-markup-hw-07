@@ -1,0 +1,27 @@
+.bg-line__container {
+    @extend %container;
+    
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bg-line {
+    background-color: var(--color-banner-bg);
+}
+
+.bg-line__contact {
+    margin-right: 70px;
+}
+
+.bg-line__address {
+    margin-top: 20px;
+}
+
+.footer__subtitle {
+    margin-bottom: 20px;
+    color: var(--color-text-wite);
+}
+

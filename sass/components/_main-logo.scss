@@ -1,0 +1,24 @@
+ .logo {
+     display: inline-flex;
+
+     font-family: var(--font-page-logo), sans-serif;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 1.19;
+
+     &--indent {
+         margin-right: 10px;
+     }
+
+     &--dark {
+         color: var(--color-text-black);
+     }
+
+     &--blue {
+         color: var(--color-hightlight);
+     }
+
+     &--wite {
+         color: var(--color-text-wite);
+     }
+ }

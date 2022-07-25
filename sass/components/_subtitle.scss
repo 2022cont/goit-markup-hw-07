@@ -1,0 +1,13 @@
+.subtitle {
+    font-weight: 700;
+
+    &--darck {
+        color: var(--color-text-dark);
+        text-transform: uppercase;
+    }
+
+    &--light {
+        color: var(--color-text-wite);
+        text-transform: uppercase;
+    }
+}

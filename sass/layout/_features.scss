@@ -1,0 +1,31 @@
+.features {
+    @extend %section;
+}
+
+.features__container {
+    @extend %container;
+}
+
+
+.features__description {
+    margin-top: 10px;
+
+    line-height: 1.71em;
+
+    &--reset {
+        padding-bottom: 0;
+    }
+}
+
+
+.features__thumb {
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-bg-light);
+    border-radius: 4px;
+
+    margin-bottom: 30px;
+}

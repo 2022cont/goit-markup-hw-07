@@ -1,0 +1,26 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: calc(-1*var(--indent) / 2);
+
+    &--bgcolor {
+        background-color: var(--color-bg-wite);
+    }
+
+    &--item-blank {
+        flex-basis: calc((100% - var(--indent) * var(--item-blank)) / var(--item-blank));
+        margin: calc(var(--indent) / 2);
+    }
+}
+
+.grid__card--item-new {
+    flex-basis: calc((100% - var(--indent) * var(--item-new)) / var(--item-new));
+    margin: calc(var(--indent) / 2);
+}
+
+.grid__card--item-new {
+    position: relative;
+
+    background: var(--color-bg-wite);
+    border: 1px solid var(--color-border-light);
+}
