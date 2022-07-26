@@ -13,12 +13,12 @@
     }
 }
 
-.grid__card--item-new {
+.grid__item-new {
     flex-basis: calc((100% - var(--indent) * var(--item-new)) / var(--item-new));
     margin: calc(var(--indent) / 2);
 }
 
-.grid__card--item-new {
+.grid__item-new {
     position: relative;
 
     background: var(--color-bg-wite);

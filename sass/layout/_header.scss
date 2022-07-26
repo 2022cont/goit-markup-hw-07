@@ -15,7 +15,7 @@
     justify-content: center;
 }
 
-.heder__logo--indent {
+.logo--indent {
     padding: 32px 0px;
 }
 
@@ -49,8 +49,6 @@
     margin-right: 50px;
 }
 
-
-
 .menu__link--current {
     position: relative;
     color: var(--color-hightlight);
@@ -73,28 +71,6 @@
     }
 }
 
-
-.cont-text__link {
-    display: flex;
-    align-items: center;
-    padding: 0;
-
-    fill: currentColor;
-    color: var(--color-text-base);
-    font-style: normal;
-    line-height: 1.7;
-
-    transition-property: color;
-    transition-duration: var(--time-anim-slow);
-    transition-timing-function: var(--transit-effect);
-
-    &--light {
-        color: var(--color-text-wite);
-    }
-}
-
-.cont-text__link:hover,
-.cont-text__link:focus,
 .logo-contact:hover,
 .logo-contact:focus {
     fill: currentColor;
